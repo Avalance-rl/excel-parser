@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "excel-parser"
+version = "0.1.0"
+description = ""
+authors = ["Artyom <phenix392133@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+xlrd = "^2.0.1"
+pandas = "^2.2.2"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
